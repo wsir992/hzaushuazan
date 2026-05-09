@@ -23,9 +23,8 @@ python like.py -n 1000 -t 20
 ```
 
 ## 给其他老师使用
-1.通过[https://faculty.hzau.edu.cn]或者学院官网教师团队找到老师
-2. 打开该老师的教师主页（如 `https://faculty.hzau.edu.cn/xxx/zh_CN/index.htm`）
-3. 按 F12 打开开发者工具，在页面源码中搜索 `TsitesPraiseUtil`，找到类似以下代码：
+1. 打开该老师的教师主页（如 `https://faculty.hzau.edu.cn/xxx/zh_CN/index.htm`）
+2. 按 F12 打开开发者工具，在页面源码中搜索 `TsitesPraiseUtil`，找到类似以下代码：
 
 ```html
 <script>
