@@ -1,5 +1,4 @@
-# 华中农业大学信息学院教师主页刷赞脚本
-（只能给信息学院的老师用）
+# 华中农业大学教师主页刷赞脚本
 ## 原理
 
 点赞功能通过 POST 请求 `/system/resource/tsites/praise.jsp` 实现，发送 `ac=updatePraise` 参数即可增加点赞数。服务端无 IP/频率限制，可并发刷赞。
@@ -24,9 +23,9 @@ python like.py -n 1000 -t 20
 ```
 
 ## 给其他老师使用
-
-1. 打开该老师的教师主页（如 `https://faculty.hzau.edu.cn/xxx/zh_CN/index.htm`）
-2. 按 F12 打开开发者工具，在页面源码中搜索 `TsitesPraiseUtil`，找到类似以下代码：
+1.通过'https://faculty.hzau.edu.cn'或者学院官网教师团队找到老师
+2. 打开该老师的教师主页（如 `https://faculty.hzau.edu.cn/xxx/zh_CN/index.htm`）
+3. 按 F12 打开开发者工具，在页面源码中搜索 `TsitesPraiseUtil`，找到类似以下代码：
 
 ```html
 <script>
